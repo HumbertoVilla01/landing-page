@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+
+.header, .footer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-top{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 600px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 300px;
+    align-items: center;
+    flex: 1;
+}
+
+.modal{
+    width: 300px;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+
+img{
+    width: auto;
+    height: 200px;
+}
+
+h2{
+font-size: 48px;
+font-weight: 900;
+color:#F9faf8;
+margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p, .sign, a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9faf8;
+}
+.button, .call{
+    background-color: #3882F6;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 16px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    max-width: 300px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 6rem 14rem 5rem 14rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+}
+
+h4{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0px;
+}
+
+.quote-text{
+    font-size: 28px;
+    color: #1f2937;
+    align-self: flex-end;
+    margin: 0px;
+}
+
+.button{
+    border-radius: 6px;
+}
+
+.footer{
+    height: 50px;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    max-width: 800px;
+    border-radius: 6px;
+    align-self: center;
+    margin: 30px;
+    padding: 30px;
+    margin-left: 500px;
+}
+
+
+.call-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    font-size: 30px;
+    font-weight: 900;
+    color:#F9faf8;
+    align-self: flex-start;
+}
